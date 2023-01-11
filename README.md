@@ -5,10 +5,10 @@ Script call:
 <node initial.js —arguments>
 
 —arguments
-	- “—help” - will show a description of calling arguments.
-	- “—Mac XX:XX:XX:XX:XX:XX” - normal usage where the MAC address is supplied in command-line
+- “—help” - will show a description of calling arguments.
+- “—Mac XX:XX:XX:XX:XX:XX” - normal usage where the MAC address is supplied in command-line
 			- ahead of time at least the API_KEY environment variable needs to be declared and populated 
-	- no arguments will expect a second environment variable to be declared and populated : MAC=<mac_address>. The absence of this variable 
+- no arguments will expect a second environment variable to be declared and populated : MAC=<mac_address>. The absence of this variable 
 			when no arguments are provided will generate an error.
 
 Improvements to be added:
