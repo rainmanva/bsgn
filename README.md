@@ -1,8 +1,9 @@
 # bsgn
  Dockerized script quering the https://macaddress.io/ MAC address lookup API. 
 This repository was created for the purpose of getting company name via https://macaddress.io/ web page by providing device MAC address and API_KEY to the script.
+
 Script call:
-<node initial.js —arguments>
+- <node initial.js —arguments>
 
 —arguments
 - “—help” - will show a description of calling arguments.
