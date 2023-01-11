@@ -1,0 +1,15 @@
+{
+  "name": "macq",
+  "version": "1.0.0",
+  "description": "MAC querry 4 Brightside",
+  "envFile": "${workspaceFolder/.env",
+  "main": "initial.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "follow-redirects": "^1.15.2"
+  },
+  "author": "Daniel Rain",
+  "args": [],
+  "devDependencies": {}
+}

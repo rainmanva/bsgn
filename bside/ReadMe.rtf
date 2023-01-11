@@ -1,0 +1,61 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2707
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red27\green31\blue35;\red255\green255\blue255;\red0\green0\blue0;
+\red13\green80\blue209;\red137\green137\blue137;}
+{\*\expandedcolortbl;;\cssrgb\c14118\c16078\c18431;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0;
+\cssrgb\c3529\c41176\c85490;\cssrgb\c60784\c60784\c60784;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid1\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww21860\viewh19460\viewkind0
+\deftab720
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\b\fs36 \cf2 \cb3 \expnd0\expndtw0\kerning0
+Dockerized script \cf4 quering the https://macaddress.io/ MAC address lookup API. 
+\f1\b0\fs24 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\fs32 \cf2 \cb3 This repository was created for the purpose of getting 
+\f0\b company name
+\f1\b0  via {\field{\*\fldinst{HYPERLINK "https://macaddress.io/"}}{\fldrslt \cf5 https://macaddress.io/}} web page by providing device 
+\f0\b MAC address
+\f1\b0  and 
+\f0\b API_KEY
+\f1\b0  to the script.\
+
+\f0\b Script call:
+\f1\b0 \
+<node initial.js \'97arguments>\
+\
+\'97arguments\
+	- \'93\'97help\'94 - will show a description of calling arguments.\
+	- \'93\'97Mac XX:XX:XX:XX:XX:XX\'94 - normal usage where the MAC address is supplied in command-line\
+			- ahead of time at least the API_KEY environment variable needs to be declared and populated \
+	- no arguments will expect a second environment variable to be declared and populated : MAC=<mac_address>. The absence of this variable \
+			when no arguments are provided will generate an error.\
+\
+
+\f0\b Improvements to be added:
+\f1\b0 \
+- another module that would modify the API_KEY and MAC environment variables in the docker file and env.env environment file\
+- another argument that will remove the explanatory string from the vendor response \
+- resolve the other types of searches(not required in the Assignment):\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa100\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf6 \kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+'json' \'97 Full MAC address information in JSON format.\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+'xml' \'97 Full MAC address information in XML format.\cb1 \
+\ls1\ilvl0
+\fs32 \cb3 \kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+'csv' \'97 Full MAC address information in CSV format.\
+\pard\pardeftab720\sa320\partightenfactor0
+\cf2 - resolve addition of mandatory access control rules using SELinux
+\f0\b  
+\f1\b0 for the Linux distribution used;
+\f0\b\fs36 \
+\
+\
+The code was tested under VirtualBox with Debian distribution ran on an iMac 19,1 2019
+\f1\b0\fs32 \
+}
